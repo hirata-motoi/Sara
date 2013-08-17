@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  
+  
+  
+  <link rel="stylesheet" href="../../css/jquery.mobile-1.3.1.min.css">
+  
+  <!-- Extra Codiqa features -->
+  <link rel="stylesheet" href="../../css/codiqa.ext.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="../../js/jquery-1.9.1.min.js"></script>
+  <script src="../../js/jquery.mobile-1.3.1.min.js"></script>
+
+  <!-- Extra Codiqa features -->
+  <script src="../../js/codiqa.ext.js"></script>
+   
+</head>
+<body>
+
+<!-- Home -->
+<div data-role="page" id="page1">
+    <div class="global-header-c" id="global-header" data-theme="e" data-role="header">
+        <h3>
+            Header
+        </h3>
+    </div>
+    <div data-role="content">
+        <div class="image_c" id="image" style="width: 320px; height: 320px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+            <img id="image" src="../../images/baby1.jpg" alt="image"
+            style="position: absolute; margin:auto">
+        </div>
+    </div>
+    <div class="global-footer-c" id="global-footer" data-theme="e" data-role="footer">
+        <ul class="global-footer-ul">
+            <li class="global-footer-li">
+                <div class="global-footer-element" id="navigator-page2">page2</div>
+            </li>
+            <li class="global-footer-li">
+                <div class="global-footer-element">aaaaa</div>
+            </li>
+            <li class="global-footer-li">
+                <div class="global-footer-element">aaaaa</div>
+            </li>
+            <li class="global-footer-li">
+                <div class="global-footer-element">aaaaa</div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div data-role="page" id="page2">
+    <div class="global-header-c" id="global-header" data-theme="e" data-role="header">
+        <h3>
+            Header2
+        </h3>
+    </div>
+    <div data-role="content">
+        <div class="image_c" id="image" style="width: 320px; height: 320px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+            <img id="image" src="../../images/baby2.jpg" alt="image"
+            style="position: absolute; margin:auto">
+        </div>
+    </div>
+    <div class="global_footer_c" id="global_footer" data-theme="e" data-role="footer">
+        <h3>
+            Footer
+        </h3>
+    </div>
+</div>
+
+
+<script>
+    $("#navigator-page2").click(function(){
+        location.href="/static/base.html#page2";
+    });
+</script>
+</body>
+</html>

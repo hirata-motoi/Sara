@@ -1,0 +1,33 @@
+/* Put your custom CSS here */
+
+.global-footer-li {
+    -webkig-box-flex:1;
+    text-align:center;
+    position:relative;
+    margin:0;
+    padding:0;
+    text-shadow:none;
+    vertical-align:baseline;
+    background:transparent;
+    display:list-item;
+    float:left;
+
+}
+.global-footer-c {
+    overflow:hidden;
+    height:30px
+}
+.global-footer-ul {
+    -webkit-box-orient:horizontal;
+    -webkit-box-align:center;
+    margin:0;
+    padding:0;
+    -webkit-padding-start:0;
+    list-style-type:none;
+}
+.global-footer-element {
+    width: 80px;
+    height:30px;
+    border:solid 1px;
+    margin:auto;
+}
